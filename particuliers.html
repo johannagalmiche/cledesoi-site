@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Particuliers – Clé de Soi</title>
+<meta name="description" content="Prestations de coaching de vie pour les particuliers : coaching individuel, parcours, cohérence cardiaque, massage intuitif.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ivoire:#FBF7F0; --beige:#F1E8DA; --sauge:#7F9473; --sauge-fonce:#566B4D;
+  --corail:#E08A74; --corail-fonce:#B9553F; --or:#C4A36A; --encre:#33392F;
+  --serif:'Cormorant Garamond',Georgia,serif; --sans:'Poppins',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ivoire);color:var(--encre);font:300 1rem/1.75 var(--sans)}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0 0 .6em;color:var(--sauge-fonce)}
+h1{font-size:clamp(2.4rem,6vw,4rem)}
+h2{font-size:clamp(1.8rem,4vw,2.5rem)}
+h3{font-size:1.5rem}
+p{margin:0 0 1em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--corail);outline-offset:3px}
+.wrap{max-width:1020px;margin:0 auto;padding:0 1.5rem}
+section{padding:4.5rem 0}
+header{padding:1.2rem 0;border-bottom:1px solid var(--or)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.logo{font-family:var(--serif);font-size:1.7rem;font-weight:600;color:var(--sauge-fonce);text-decoration:none}
+nav a{margin-left:1.4rem;text-decoration:none;font-size:.9rem}
+nav a:hover{color:var(--corail-fonce)}
+.hero{padding:5.5rem 0 4.5rem;background:linear-gradient(180deg,var(--beige),var(--ivoire))}
+.hero p.lead{font-size:1.15rem;max-width:34em}
+.hero .devise{font-family:var(--serif);font-style:italic;font-size:1.5rem;color:var(--corail-fonce);margin:1.6rem 0 2rem}
+.btn{display:inline-block;background:var(--corail-fonce);color:#fff;padding:.85rem 1.8rem;border-radius:999px;text-decoration:none;font-weight:400;border:0;font:400 1rem var(--sans);cursor:pointer}
+.btn:hover{background:#a2452f}
+.btn.clair{background:transparent;color:var(--sauge-fonce);border:1px solid var(--sauge);margin-left:.6rem}
+.btn.clair:hover{background:var(--sauge);color:#fff}
+.piliers{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2.5rem}
+.piliers div{border-top:2px solid var(--or);padding-top:1rem}
+.apropos{display:grid;grid-template-columns:minmax(0,1fr);gap:2rem;align-items:center}
+.apropos img{width:100%;height:auto;border-radius:14px;border:1px solid var(--or)}
+@media(min-width:760px){.apropos{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}}
+.beige{background:var(--beige)}
+.demarche{display:flex;flex-wrap:wrap;gap:.8rem;margin:1.5rem 0}
+.demarche span{background:var(--ivoire);border:1px solid var(--sauge);color:var(--sauge-fonce);padding:.4rem 1.1rem;border-radius:999px;font-size:.95rem}
+.valeurs{color:var(--sauge-fonce);font-style:italic}
+.offres{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:1.5rem;margin-top:2rem}
+.offre{background:#fff;border:1px solid #e4d9c5;border-radius:14px;padding:1.8rem}
+.offre .prix{font-family:var(--serif);font-size:2rem;color:var(--corail-fonce);margin:.2rem 0 .6rem}
+.offre .detail{font-size:.9rem;color:#5a6153;margin:0}
+.offre.mise{border:2px solid var(--sauge)}
+.liste{padding-left:1.1rem;margin:.6rem 0 0;font-size:.92rem}
+.liste li{margin-bottom:.25rem}
+form{display:grid;gap:1rem;max-width:560px}
+label{font-size:.9rem;color:var(--sauge-fonce)}
+input,select,textarea{width:100%;padding:.75rem .9rem;border:1px solid #cfc3ad;border-radius:8px;background:#fff;font:300 1rem var(--sans);color:var(--encre)}
+textarea{min-height:130px}
+footer{background:var(--sauge-fonce);color:#eef0e8;padding:2.5rem 0;font-size:.9rem;text-align:center}
+@media(max-width:600px){nav a{margin:0 1rem 0 0}.btn.clair{margin:.8rem 0 0}}
+@media(prefers-reduced-motion:no-preference){.hero .wrap{animation:entree .9s ease both}}
+@keyframes entree{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="index.html">Clé de Soi</a>
+    <nav aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="particuliers.html">Particuliers</a>
+      <a href="entreprises.html">Entreprises</a>
+      <a href="index.html#apropos">À propos</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="wrap">
+    <h1 style="font-size:clamp(2.2rem,5vw,3.2rem)">Particuliers</h1>
+    <p class="lead">Retrouver confiance en soi, apprendre à gérer ses émotions et avancer vers les changements qui vous tiennent à cœur, avec écoute et bienveillance.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Prestations pour les particuliers</h2>
+    <div class="offres">
+      <article class="offre">
+        <h3>Échange découverte</h3>
+        <p class="prix">Gratuit</p>
+        <p class="detail">20 à 30 minutes, sans engagement.</p>
+        <p style="margin-top:1rem">Faisons connaissance, parlons de ce qui vous amène et voyons si mon accompagnement vous convient.</p>
+      </article>
+      <article class="offre">
+        <h3>Coaching individuel</h3>
+        <p class="prix">50 €</p>
+        <p class="detail">1 heure en visio, ou 60 € à domicile, partout en Occitanie.</p>
+        <p style="margin-top:1rem">Une séance pour faire le point, avancer sur une situation précise et repartir avec des pistes concrètes.</p>
+      </article>
+      <article class="offre mise">
+        <h3>Parcours « Se retrouver »</h3>
+        <p class="prix">225 € <span style="font-size:1rem;color:#5a6153"><s>250 €</s></span></p>
+        <p class="detail">5 séances d’1 heure en visio.</p>
+        <ul class="liste">
+          <li>Faire le point sur soi, ses forces et ses blocages</li>
+          <li>Confiance et estime de soi</li>
+          <li>S’affirmer et exprimer ses besoins</li>
+          <li>Consolider les acquis</li>
+        </ul>
+      </article>
+      <article class="offre">
+        <h3>Séance de cohérence cardiaque</h3>
+        <p class="prix">30 €</p>
+        <p class="detail">30 minutes en individuel, en visio ou à domicile.</p>
+        <p style="margin-top:1rem">Comprendre le fonctionnement de la cohérence cardiaque, la pratiquer ensemble en étant guidée, et repartir avec des conseils pour la refaire chez soi. Utiliser sa respiration pour s’apaiser, mieux gérer le stress et retrouver un moment de calme.</p>
+      </article>
+      <article class="offre">
+        <h3>Massage intuitif</h3>
+        <p class="prix">Sur demande</p>
+        <p class="detail">Tarif et durée : me contacter.</p>
+        <p style="margin-top:1rem">Un moment pour vous, à votre écoute, pour relâcher les tensions et retrouver du calme.</p>
+      </article>
+    </div>
+    <p style="margin-top:2.5rem"><a class="btn" href="index.html#contact">Réserver un échange découverte gratuit</a><a class="btn clair" href="index.html">Retour à l’accueil</a></p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p style="margin:0 0 .4rem"><strong style="font-family:var(--serif);font-size:1.3rem;font-weight:600">Clé de Soi</strong></p>
+    <p style="margin:0 0 .4rem">Coaching de vie à Perpignan, à domicile ou en visio</p>
+    <p style="margin:0"><a href="tel:+33641870060">06 41 87 00 60</a> · <a href="mailto:cledesoi.johanna@gmail.com">cledesoi.johanna@gmail.com</a> · <a href="index.html#mentions">Mentions légales</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
